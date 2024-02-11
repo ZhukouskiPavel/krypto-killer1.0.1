@@ -1,0 +1,9 @@
+[flake8]
+ignore = W503
+exclude =
+    src/alembic
+
+max-line-length = 88
+max-complexity = 18
+select = B,C,E,F,W,T4,B9
+per-file-ignores = __init__.py:F401
